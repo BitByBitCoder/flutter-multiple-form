@@ -3,12 +3,13 @@ import 'package:shadcn_ui/shadcn_ui.dart';
 
 import 'package:testform/model.dart';
 import 'package:testform/repository.dart';
+import 'package:testform/showcase.dart';
 import 'package:testform/test.dart';
 
 void main(List<String> args) {
   runApp(const ShadApp.material(
     // home: FamilyMembersList(),
-    home: ShadCnTest(),
+    home: MyApp(),
   ));
 }
 
